@@ -27,4 +27,3 @@ x = media (provas[0], provas[1], provas[2], provas[3])
 r = x
 print ("Sua média ficou:", r)
 situacao (r)
-

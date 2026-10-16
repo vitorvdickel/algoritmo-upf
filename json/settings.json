@@ -1,0 +1,44 @@
+{
+  // --- Aparência & Tema ---
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+
+  // --- Remoção de Ruído Visual ---
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.location": "top", // Move os ícones de navegação para o topo do painel
+  "workbench.statusBar.visible": true,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "gui.customTitleBar": true,
+  "window.titleBarStyle": "custom",
+
+  // --- Editor e Tipografia ---
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.renderLineHighlight": "gutter",
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 8,
+
+  // --- Limpeza de Guias e Breadcrumbs ---
+  "workbench.editor.showTabs": "single", // Mantém apenas a aba ativa visível
+  "editor.breadcrumbs.enabled": true,
+  "editor.guides.indentation": false, // Remove as linhas verticais de identação
+  "editor.guides.bracketPairs": false,
+
+  // --- Produtividade e Salvamento ---
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false
+}
