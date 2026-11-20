@@ -16,3 +16,5 @@ print ('\nDados do Produto')
 #perconrrendo o dicionario
 for chave,valor in produto.items():
     print(chave,':',valor)
+
+print('\nValor total em estoque:',produto["preco"] * produto["quantidade"])
